@@ -30,7 +30,7 @@ function updateCountdown() {
     $("hours").textContent = "00";
     $("minutes").textContent = "00";
     $("seconds").textContent = "00";
-    $("countdownHint").textContent = "Yeay! Hari spesialmu sudah tiba. Saatnya membuka kejutan! ♡";
+    $("countdownHint").textContent = "Yeay! Udah Tiba Ni! ♡";
     $("clickMe").disabled = false;
     $("clickMe").classList.remove("locked");
     $("lockText").textContent = "your surprise is ready!";
@@ -114,7 +114,7 @@ function renderSlide(index) {
     slidePlaceholder.hidden = false;
     slidePlaceholder.textContent = "File foto belum ditemukan";
   };
-  slideCaption.textContent = ["Princess Cantik ♡","Princess Imut ♡","Princess Lucu ♡","Princess Gemes ♡","Princess Ngangenin ♡","III SENYUMANNYA MANIIS BANGETTT ♡"][currentSlide % 6];
+  slideCaption.textContent = ["Azizi Cantik ♡","Azizi Imut ♡","Azizi Lucu ♡","Azizi Gemes ♡","Azizi Ngangenin ♡","III SENYUMANNYA MANIIS BANGETTT ♡"][currentSlide % 6];
   slideDots.innerHTML = "";
   MEMORY_PHOTOS.forEach((_, dotIndex) => {
     const dot = document.createElement("button");
