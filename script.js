@@ -4,7 +4,7 @@
   Contoh: "2026-11-10T00:00:00"
   Waktu mengikuti zona waktu perangkat yang membuka website.
 */
-const BIRTHDAY_DATE = "2026-11-10T00:00:00";
+const BIRTHDAY_DATE = "2026-11-15T00:00:00";
 
 const $ = (id) => document.getElementById(id);
 const stages = ["stage-countdown","stage-gift","stage-letter","stage-album","stage-video","stage-final"];
